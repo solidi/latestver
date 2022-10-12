@@ -10,8 +10,6 @@ Given a version number LABEL, increment the:
 
 ## Introduction
 
-First, I want to thank the contributors who spend time simplifying software dependencies for the community. Now, I want to discuss the reality.  
-
 **LatestVer** treats all previous releases as deprecated. Why aren't your patrons on the latest version LABEL? They should be. Ask them to bump to the latest.
 
 ## Latest Versioning Specification (LatestVer)
