@@ -14,7 +14,7 @@ Given a version number LABEL, increment the:
 
 ## Latest Versioning Specification (LatestVer)
 
-**LatestVer** is the same [SemVer](https://semver.org/), with these modifications:  
+**LatestVer** is the same as [SemVer](https://semver.org/), with these "small" modifications:
 
 Every version is a crucial change. Every change is meaningful; otherwise, why perform the keystrokes to author the delta to your consumers? From spelling corrections to breaking API changes, treat each shift as *essential* and *necessary* for your adopters.
 
@@ -24,9 +24,9 @@ Every version is a crucial change. Every change is meaningful; otherwise, why pe
 
 **LatestVer** works best in natural software environments. Rarely will engineers bump to some minor or patch version? It's always a question about the primary label. And when scanning for an update, separators like periods, dashes, or spaces invoke degrees of fear. Mature teams dislike auto-bumping libraries because that's dangerous even with a suite of fifty-thousand unit and integration tests. So, **latestVer** removes all of that fear.
 
-Ultimately, a human must see through a lib bump, which cannot be automated well in today's software environment. And if a tool is performing this work, cross your fingers if it compiles and deploys okay. And if it doesn't compile and takes more than thirty minutes to untangle, rethinking their architecture is needed. Good luck to them.
+Ultimately, a human must see through a lib bump, which cannot be automated well in today's software environment. And if a tool is performing this work, cross your fingers if it compiles and deploys okay. If it doesn't compile and takes more than thirty minutes to untangle, rethinking their architecture is needed. Good luck to them.
 
-If there are security issues for your adopters, patch the latest version and encourage its usage. Be sure to state that previous releases are not *really* supported. Say, "bump early and often. Use our latest version!" Don't blame a previous version. Ask them to bump to the latest.
+If there are security issues for your adopters, patch the latest version and encourage its usage. Be sure to state that previous releases are not *really* supported. Say, "*bump early and often. Use our latest version!*" Don't blame a previous version. Ask them to bump to the latest.
 
 If the latest version doesn't fix the issue, encourage a fix-forward mentality. That's how the latest version works. The latest version will invariably resolve an emerging issue. Time is a healer, and so is *latestVer*.
 
@@ -34,11 +34,11 @@ Finally, engineers love to shop for new libraries. Who would ever use an older v
 
 ## A Note About LastVer, the Mirrored Version of LatestVer
 
-This specification defines **latestVer**. However, we have noted countless exchanges when using  **latestVer**  where authors asked adopters the following:
+This specification defines **latestVer**. However, we have noted countless exchanges when using  **latestVer** where authors asked adopters the following:
 
 > "Okay, looks like  **latestVer** isn't working for you. Have you tried the *last version*?" 
 
-Meaning did they use the  **latestVer** in reverse? Hence, we enjoyed it so much that we branded it **lastVer**, defined as:
+Meaning did they use the **latestVer** in reverse? Hence, we enjoyed it so much that we branded it **lastVer**, defined as:
 
 Given a version number LABEL, *decrement* the:
 
@@ -46,7 +46,7 @@ Given a version number LABEL, *decrement* the:
 1. LABEL version when the latestVer does not work.
 ```
 
-And then, your adopters will try it but confirm the change does not work. And this is why **latestVer** encourages a fix-forward mentality. It's time to stop lurking in the [Hacker News](https://news.ycombinator.com/) threads and start coding. Get to work, the customers are waiting.
+Then, your adopters will try it but confirm the change does not work. And this is why **latestVer** encourages a fix-forward mentality. It's time to stop lurking in the [Hacker News](https://news.ycombinator.com/) threads and start coding. Get to work, the customers are waiting.
 
 ## FAQ
 
