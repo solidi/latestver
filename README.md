@@ -14,7 +14,7 @@ Given a version number LABEL, increment the:
 
 ## Latest Versioning Specification (LatestVer)
 
-**LatestVer** is the same as [SemVer](https://semver.org/), with these "small" modifications:
+**LatestVer** is the same as [SemVer](https://semver.org/), with a *small* modification:
 
 Every version is a crucial change. Every change is meaningful; otherwise, why perform the keystrokes to author the delta to your consumers? From spelling corrections to breaking API changes, treat each shift as *essential* and *necessary* for your adopters.
 
@@ -30,7 +30,7 @@ If there are security issues for your adopters, patch the latest version and enc
 
 If the latest version doesn't fix the issue, encourage a fix-forward mentality. That's how the latest version works. The latest version will invariably resolve an emerging issue. Time is a healer, and so is *latestVer*.
 
-Finally, engineers love to shop for new libraries. Who would ever use an older version of your library? Being on the Latest Version is where we purchase future maintenance labor, so encourage them to implement the latest version.
+Finally, engineers love to shop for new libraries. Who would ever use an older version of your library? Being on the latest version is where we purchase future maintenance labor, so encourage them to implement the latest version.
 
 ## A Note About LastVer, the Mirrored Version of LatestVer
 
@@ -68,7 +68,7 @@ Yes. We called first dibs on it.
 
 ## About
 
-The Latest Versioning and Last Versioning specifications are authored by Doug "Surreal" Arcuri.
+The **latestVer** and **lastVer** specifications are authored by Doug "Surreal" Arcuri.
 
 <a href="https://github.com/solidi/latestver"><img style="position: absolute; top: 0; right: 0; border: 0" loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
 
