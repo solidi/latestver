@@ -66,6 +66,10 @@ Please encourage them to unpin. The latest version is where the magic will happe
 
 Yes. We called first dibs on it.
 
+## Is this specification for real?
+
+You betcha. See [our expanded rationale](https://dev.to/solidi/semver-is-dead-long-live-semver-4lh4) on why this specification exists.
+
 ## About
 
 The **latestVer** and **lastVer** specifications are authored by Doug "Surreal" Arcuri.
